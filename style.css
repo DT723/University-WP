@@ -3,3 +3,7 @@ Theme Name: University
 Author: David Tesno
 Version: 1.0.0
 */
+
+body {
+  color: orange;
+}
