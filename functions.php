@@ -12,6 +12,11 @@ add_action('wp_enqueue_scripts', 'univ_files');
 
 function univ_features() {
     add_theme_support('title-tag');
+   
+    // ****Dynamic Menu Option***
+    // register_nav_menu('headerMenuLocation', 'Header Menu Location');
+    // register_nav_menu('footerMenuLocationOne', 'Footer Menu Location One');
+    // register_nav_menu('footerMenuLocationTwo', 'Footer Menu Location Two');
 }
 add_action('after_setup_theme', 'univ_features');
 
